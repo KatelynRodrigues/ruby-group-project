@@ -21,7 +21,7 @@ def calculator(input)
     end
 end
 
-puts "Put in your equation. (Spaces, please!)"
+puts "Type in your equation. (Spaces, please!)"
 input = gets.chomp
 input = input.split(" ")
 puts calculator(input)
